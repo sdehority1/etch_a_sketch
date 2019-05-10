@@ -1,0 +1,44 @@
+.header {
+  position: relative;
+  left: 50%;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.container {
+  width: 384px;
+  height: 384px;
+  border-style: solid;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  left: 50%;
+}
+
+.square {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  opacity: 0.5;
+};
+
+.blackSquare {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+ };
+
+.squaresOnLoad {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.button {
+  position: relative;
+  left: 50%;
+  bottom: 12px;
+  border-radius: 25px;
+  width: 118px;
+  height: 25px; 
+  font-family: "Trebuchet MS", sans-serif;
+}
